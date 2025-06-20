@@ -1,0 +1,355 @@
+# Georgian translation for pinfo
+# Copyright (C) 2025 pinfo's authors
+# This file is distributed under the same license as the pinfo package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pinfo\n"
+"Report-Msgid-Bugs-To: pinfo-devel@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2025-02-16 21:12+0100\n"
+"PO-Revision-Date: 2025-06-20 10:17+0200\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#: src/filehandling_functions.c:488 src/filehandling_functions.c:496
+#, c-format
+msgid "Searching for indirect done"
+msgstr "ბმულის ძებნა დასრულებულია"
+
+#: src/filehandling_functions.c:528 src/filehandling_functions.c:535
+#, c-format
+msgid "Warning: could not find tag table"
+msgstr "გაფრთხილება: ჭდეების ცხრილის პოვნა შეუძლებელია"
+
+#: src/filehandling_functions.c:569
+#, c-format
+msgid "Searching for tag table done\n"
+msgstr "ჭდეების ცხრილის ძებნა დასრულდა\n"
+
+#: src/filehandling_functions.c:710
+#, c-format
+msgid "Error while reading file '%s'"
+msgstr "შეცდომა ფაილის კითხვისას: \"%s\""
+
+#: src/filehandling_functions.c:1136
+msgid "Can't open file"
+msgstr "ფაილის გახსნის შეცდომა"
+
+#: src/filehandling_functions.c:1137 src/pinfo.c:430
+msgid "press a key to continue"
+msgstr "გასაგრძელებლად დააჭირეთ ნებისმიერ ღილაკს"
+
+#: src/filehandling_functions.c:1255
+#, c-format
+msgid "Error: could not open info file part"
+msgstr "შეცდომა: info ფაილის გახსნა შეუძლებელია"
+
+#: src/mainfunction.c:170 src/manual.c:1012
+msgid "Are you sure you want to print?"
+msgstr "დარწმუნებული ბრძანდებით, რომ გნებავთ, დაბეჭდოთ?"
+
+#: src/mainfunction.c:222 src/manual.c:1057
+msgid "Enter line: "
+msgstr "შეიყვანეთ ხაზი: "
+
+#: src/mainfunction.c:263 src/manual.c:1104
+msgid "Enter command: "
+msgstr "შეიყვანეთ ბრძანება: "
+
+#: src/mainfunction.c:282
+msgid "Operation failed..."
+msgstr "ოპერაციის შეცდომა..."
+
+#: src/mainfunction.c:318 src/mainfunction.c:577 src/manual.c:1157
+msgid "Enter regular expression: "
+msgstr "შეიყვანეთ რეგულარულ გამოსახულება: "
+
+#: src/mainfunction.c:548 src/mainfunction.c:645 src/manual.c:1235
+msgid "Search string not found..."
+msgstr "საძებნი სტრიქონი ვერ მოიძებნა..."
+
+#: src/mainfunction.c:604 src/manual.c:1192
+msgid "Invalid regular expression;"
+msgstr "არასწორი რეგულარული გამოსახულება;"
+
+#: src/mainfunction.c:606 src/manual.c:1194
+msgid "Press any key to continue..."
+msgstr "გასაგრძელებლად დააჭირეთ ნებისმიერ ღილაკს..."
+
+#: src/mainfunction.c:676
+msgid "Enter node name: "
+msgstr "შეიყვანეთ კვანძის სახელი: "
+
+#: src/mainfunction.c:755
+#, c-format
+msgid "Node %s not found"
+msgstr "კვანძის პოვნა შეუძლებელია: %s"
+
+#: src/mainfunction.c:1218 src/manual.c:1592
+msgid "Are you sure you want to quit?"
+msgstr "მართლა გნებავთ, გახვიდეთ?"
+
+#: src/manual.c:349
+#, c-format
+msgid "Error: Cannot call man command.\n"
+msgstr "შეცდომა: ბრძანება man-ის გამოძახების შეცდომა.\n"
+
+#: src/manual.c:358
+#, c-format
+msgid "Error: No manual page found either.\n"
+msgstr "შეცდომა: სახელმძღვანელოს გვერდის პოვნა შეუძლებელია.\n"
+
+#: src/manual.c:361
+#, c-format
+msgid "Apropos pages:\n"
+msgstr "შესაფერისი გვერდები:\n"
+
+#: src/manual.c:404
+msgid "Calling gunzip for"
+msgstr "\"gunzip\"-ის გამოძახება"
+
+#: src/manual.c:410
+#, c-format
+msgid "Couldn't call gunzip.\n"
+msgstr "\"gunzip\"-ის გამოძახების შეცდომა\n"
+
+#: src/manual.c:447
+msgid "IGNORING"
+msgstr "იგნორირება"
+
+#: src/manual.c:493
+#, c-format
+msgid "Error: No manual page found\n"
+msgstr "შეცდომა: სახელმძღვანელოს გვერდის პოვნა შეუძლებელია\n"
+
+#: src/manual.c:498
+#, c-format
+msgid "Calling apropos \n"
+msgstr "\"apropos\"-ის გამოძახება \n"
+
+#: src/manual.c:503
+#, c-format
+msgid "Nothing appropriate\n"
+msgstr "არაფერი შესაბამისი\n"
+
+#: src/manual.c:1026
+msgid "Enter manual name: "
+msgstr "შეიყვანეთ სასურველ სახელი: "
+
+#: src/manual.c:1673
+#, c-format
+msgid "Viewing line %d/%d, %d%%"
+msgstr "უყურებთ ხაზს %d/%d, %d%%"
+
+#: src/manual.c:1675
+#, c-format
+msgid "Viewing line %d/%d, 100%%"
+msgstr "უყურებთ ხაზს %d/%d, 100%%"
+
+#: src/parse_config.c:101
+#, c-format
+msgid "Can't open config file!\n"
+msgstr "კონფიგურაციის ფაილის გახსნის შეცდომა!\n"
+
+#: src/parse_config.c:151
+#, c-format
+msgid "Parse error in config file on line %d\n"
+msgstr "კონფიგურაციის ფაილის დამუშავების შეცდომა ხაზზე: %d\n"
+
+#: src/utils.c:120 src/utils.c:176
+#, c-format
+msgid "Virtual memory exhausted\n"
+msgstr "ვირტუალური მეხსიერება გადავსებულია\n"
+
+#: src/utils.c:215
+#, c-format
+msgid "Failed to execute command '%s': %i"
+msgstr "ბრძანების ('%s') შესრულების შეცდომა: %i"
+
+#: src/utils.c:255
+#, c-format
+msgid ""
+"Illegal characters in filename!\n"
+"*** %s\n"
+msgstr ""
+"ფაილის სახელი არასწორ სიმბოლოებს შეიცავს!\n"
+"*** %s\n"
+
+#: src/utils.c:588
+msgid "yes"
+msgstr "დიახ"
+
+#: src/utils.c:589
+msgid "no"
+msgstr "არა"
+
+#: src/utils.c:864
+#, c-format
+msgid "Couldn't open temporary file\n"
+msgstr "დროებითი ფაილის გახსნის შეცდომა\n"
+
+#: src/video.c:59
+msgid "File:"
+msgstr "ფაილი:"
+
+#: src/video.c:60
+msgid "Node:"
+msgstr "კვანძი:"
+
+#: src/video.c:61
+msgid "Next:"
+msgstr "შემდეგი:"
+
+#: src/video.c:62
+msgid "Prev:"
+msgstr "წინა:"
+
+#: src/video.c:63
+msgid "Up:"
+msgstr "მაღლა:"
+
+#: src/video.c:112
+#, c-format
+msgid "Viewing line %ld/%ld, %ld%%"
+msgstr "უყურებთ ხაზს %ld/%ld, %ld%%"
+
+#: src/video.c:114
+#, c-format
+msgid "Viewing line %ld/%ld, 100%%"
+msgstr "უყურებთ ხაზს %ld/%ld, 100%%"
+
+#: src/video.c:297
+msgid "Warning: matched empty string"
+msgstr "გაფრთხილება: ემთხვევა ცარიელი სტრიქონი"
+
+#: src/pinfo.c:110 src/pinfo.c:199
+#, c-format
+msgid "Looking for man page...\n"
+msgstr "სახელმძღვანელოს გვერდის ძებნა...\n"
+
+#: src/pinfo.c:148
+#, c-format
+msgid "--node option used without argument\n"
+msgstr "--node პარამეტრი არგუმენტის გარეშეა\n"
+
+#: src/pinfo.c:158
+#, c-format
+msgid "--rcfile option used without argument\n"
+msgstr "--rcfile პარამეტრი არგუმენტის გარეშეა\n"
+
+#: src/pinfo.c:169
+#, c-format
+msgid ""
+"Usage:\n"
+"%s [options] [info|manual]\n"
+"Options:\n"
+"-h, --help                            help\n"
+"-v, --version                         version\n"
+"-m, --manual                          use man page\n"
+"-r, --raw-filename                    use raw filename\n"
+"-f, --file                            synonym for -r\n"
+"-a, --apropos                         call apropos if nothing found\n"
+"-p, --plain-apropos                   call only apropos\n"
+"-c, --cut-man-headers                 cut out repeated man headers\n"
+"-l, --long-manual-links               use long link names in manuals\n"
+"-s, --squeeze-manlines                cut empty lines from manual pages\n"
+"-d, --dont-handle-without-tag-table   don't display texinfo pages without "
+"tag\n"
+"                                      tables\n"
+"-t, --force-manual-tag-table          force manual detection of tag "
+"table\n"
+"-x, --clear-at-exit                   clear screen at exit\n"
+"    --node=nodename, --node nodename  jump directly to the node nodename\n"
+"    --rcfile=file, --rcfile file      use alternate rcfile\n"
+msgstr ""
+"გამოყენება:\n"
+"%s [პარამეტრები] [info|manual]\n"
+"პარამეტრები:\n"
+"-h, --help                            დახმარება\n"
+"-v, --version                         ვერსია\n"
+"-m, --manual                          man-ის გამოყენება\n"
+"-r, --raw-filename                    პირდაპირი ფაილის სახელის მითითება\n"
+"-f, --file                             -r -ის სინონიმი\n"
+"-a, --apropos                         თუ ვერაფერი ვიპოვე, apropos-ის "
+"გამოძახება\n"
+"-p, --plain-apropos                   მხოლოდ apropos-ის გამოძახება\n"
+"-c, --cut-man-headers                  man -ის განმეორებადი თავსართების "
+"წაჭრა\n"
+"-l, --long-manual-links               სახელმძღვანელოებში გრძელი ბმულების "
+"გამოყენება\n"
+"-s, --squeeze-manlines                man-ის განმეორებად ცარიელი ხაზების "
+"წაჭრა\n"
+"-d, --dont-handle-without-tag-table   texinfo -ის ჭდის არმქონე გვერდები "
+"ნაჩვენები არ იქნება\n"
+"                                      \n"
+"-t, --force-manual-tag-table          ჭდეების ცხრილის ხელით მორგება\n"
+"-x, --clear-at-exit                   გამოსვლისას ეკრანის გასუფთავება\n"
+"    --node=nodename, --node nodename  პირდაპირ მითითებულ კვანძზე "
+"გადასვლა\n"
+"    --rcfile=file, --rcfile file      ალტერნატიული rcfile-ის გამოყენება\n"
+
+#: src/pinfo.c:315
+#, c-format
+msgid "Error: could not open info file, trying manual\n"
+msgstr "შეცდომა: info ფაილის გახსნა შეუძლებელია, ხელით ვცდი\n"
+
+#: src/pinfo.c:348
+#, c-format
+msgid "Warning: tag table not found...\n"
+msgstr "გაფრთხილება: ჭდეების ცხრილის პოვნა შეუძლებელია...\n"
+
+#: src/pinfo.c:352
+#, c-format
+msgid "Trying to create alternate tag table...\n"
+msgstr "ალტერნატიული ჭდეების ცხრილის შექმნის მცდელობა...\n"
+
+#: src/pinfo.c:357 src/pinfo.c:581
+#, c-format
+msgid "This doesn't look like info file...\n"
+msgstr "ეს info -ის ფაილს არ ჰყავს...\n"
+
+#: src/pinfo.c:370
+#, c-format
+msgid "Specified node does not exist...\n"
+msgstr "მითითებული კვანძი არ არსებობს...\n"
+
+#: src/pinfo.c:429
+msgid "Tag table is corrupt, trying to fix..."
+msgstr "ჭდეების ცხრილი დაზიანებულია. ვეცდები, აღვადგინო..."
+
+#: src/pinfo.c:503
+msgid "File not found. Press any key..."
+msgstr "ფაილი ვერ ვიპოვე. დააწექით ნებისმიერ ღილაკს..."
+
+#: src/pinfo.c:523
+#, c-format
+msgid "Unexpected error.\n"
+msgstr "მოულოდნელი შეცდომა.\n"
+
+#: src/pinfo.c:576
+msgid "Tag table not found. Trying to create alternate..."
+msgstr "ჭდეების ცხრლი ვერ ვიპოვე. ალტერნატიულის შექმნის მცდელობა..."
+
+#: src/pinfo.c:663
+#, c-format
+msgid "Security warning: Unable to get GID of group called: %s\n"
+msgstr ""
+"უსაფრთხოების გაფრთხილება: ჯგუფის, სახელად %s, GID-ის მიღების შეცდომა\n"
+
+#: src/pinfo.c:683
+#, c-format
+msgid "Security warning: Unable to get UID of user called: %s\n"
+msgstr ""
+"უსაფრთხოების გაფრთხილება: მომხმარებლის, სახელად %s, UID-ის მიღების "
+"შეცდომა\n"
+
+#: src/pinfo.c:698
+#, c-format
+msgid "Unable to drop root privileges: %s"
+msgstr "\"root\"-ის პრივილეგიების მოცილების შეცდომა: %s"
