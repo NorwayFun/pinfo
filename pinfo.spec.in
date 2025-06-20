@@ -53,12 +53,17 @@ rm -rf $RPM_BUILD_ROOT
 %lang(pl) %{_datadir}/locale/pl/LC_MESSAGES/*
 %lang(cs) %{_datadir}/locale/cs/LC_MESSAGES/*
 %lang(de) %{_datadir}/locale/de/LC_MESSAGES/*
+%lang(ka) %{_datadir}/locale/ka/LC_MESSAGES/*
 %lang(sv) %{_datadir}/locale/sv/LC_MESSAGES/*
 %lang(ru) %{_datadir}/locale/ru/LC_MESSAGES/*
 %lang(uk) %{_datadir}/locale/uk/LC_MESSAGES/*
 %{_mandir}/man1/*
 
 %changelog
+* Fri Jun  20 2025 Temuri Doghonadze <temuri.doghonadze@gmail.com>
+  [0.6.13-2]
+- added ka locale
+
 * Wed Feb  12 2025 Volodymyr Lisivka <vlisivka@gmail.com>
   [0.6.13-1]
 - added uk locale
